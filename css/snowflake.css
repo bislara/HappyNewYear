@@ -20,9 +20,17 @@
   
 
 body {
-	background-color: #72e795;
+	background-image: url("../images/bg2.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	/* background-color: #72e795; */
 	/* color: #fff; */
-	/* height: 100vh; */
+	height: 100vh;
 	overflow: hidden;
 }
 
