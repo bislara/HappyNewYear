@@ -64,8 +64,9 @@
   font-family: 'Lobster', cursive;
   /* font-style: italic; */
   font-size: 70px;
-  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
-  color: #FFF;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #fabc5c, 3px 3px 0 #feb941;
+  /* 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d; */
+  color: #932927;
 }
 
 #card-inside {
@@ -95,8 +96,9 @@ p.signed {
 #card-front {
   background-color: #ee9ca7;
   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#FF5555), to(#FF7777)); */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#dd1313), to(#ed9c9c));
-  background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%);
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#dd1313), to(#ed9c9c)); */
+  /* background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%); */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#efc24b), to(#ed9c9c));
   -webkit-transform-origin: left;
           transform-origin: left;
   -webkit-transition: -webkit-transform 1s linear;
